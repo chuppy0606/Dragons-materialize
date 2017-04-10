@@ -95,8 +95,8 @@ feature
     </div>
 ```
 > via parallax
-
-    <!-- new-section -->
+```html
+   <!-- new-section -->
 
     <div class="section">
         <div class="row">
@@ -181,6 +181,7 @@ feature
 </body>
 
 </html>
+```
 
 resources used
 ================
