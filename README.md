@@ -1,10 +1,11 @@
 Complete
 ========
->Material template
-feature
-========
 
-> Default setting
+>Material template
+
+feature
+==========
+
 ```html
 <html>
 
@@ -20,6 +21,7 @@ feature
     <script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/js/materialize.min.js'></script>
 </head>
 ```
+> Default setting
 ```html
 <body>
     <!-- navigation -->
