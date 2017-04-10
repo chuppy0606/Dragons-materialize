@@ -1,10 +1,16 @@
-Complete 17-4-10
+![alt tag](https://scotch.io/wp-content/uploads/2015/01/getting-started-materialize-css-framework.png)
+
+Complete (17-4-10)
 ========
 
 >Material template
 
 feature
 ==========
+1. Material Framework
+2. Parallax
+3. semantic layout
+
 
 ```html
 <html>
@@ -89,8 +95,8 @@ feature
     </div>
 ```
 > via parallax
-
-    <!-- new-section -->
+```html
+   <!-- new-section -->
 
     <div class="section">
         <div class="row">
@@ -175,3 +181,8 @@ feature
 </body>
 
 </html>
+```
+
+resources used
+================
+:https://peexaweb.com/materialize-css-tutorial/
