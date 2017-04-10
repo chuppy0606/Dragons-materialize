@@ -57,11 +57,11 @@ feature
 ```
 > Navition and Dropdown
 ```html
-  <div class="button-group center align">
+  <div class="button-group ***center align***">
 ```
 >Button align
 ```html
-    <div class="parallax-container valign-wrapper">
+    <div class="***parallax***-container valign-wrapper">
 ```
 >parallax comment
 ```html
