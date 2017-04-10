@@ -1,5 +1,8 @@
 Complete
 ========
+>Material template
+feature
+========
 
 > Default setting
 ```html
@@ -53,6 +56,19 @@ Complete
     </nav>
 ```
 > Navition and Dropdown
+```html
+  <div class="button-group center align">
+```
+>Button align
+```html
+    <div class="parallax-container valign-wrapper">
+```
+>parallax comment
+```html
+    <div class="container">
+            <div class="section">
+```
+>default setting
 
 ``` html
 
