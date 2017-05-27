@@ -1,0 +1,47 @@
+html {
+  background-color: #faf5e8; }
+
+header {
+  background-image: url(http://static.boredpanda.com/blog/wp-content/uploads/2014/06/happy-dog-maru-shiba-inu-33.jpg);
+  background-size: cover;
+  height: 100vh; }
+  header .nav-banner {
+    color: #1092df; }
+    header .nav-banner .banner-content {
+      border: 4px solid red;
+      position: absolute;
+      top: 20rem;
+      left: 40rem; }
+      header .nav-banner .banner-content a {
+        color: red;
+        display: relative;
+        left: 5rem;
+        top: 2rem; }
+    header .nav-banner span {
+      display: block;
+      font-size: 70px; }
+    header .nav-banner .banner-sub {
+      font-size: 20px; }
+
+.nav {
+  background-color: #faf5e8;
+  text-align: center;
+  border: 4px solid red;
+  padding: 50px; }
+  .nav span {
+    display: inline;
+    border: 4px solid red;
+    color: #1092df;
+    font-size: 70px; }
+
+.section-article {
+  margin: 0 auto 20rem;
+  max-width: 1000px; }
+
+.card-align {
+  border: 4px solid red;
+  max-width: 60rem;
+  margin: 2rem auto 0; }
+
+.page-article {
+  border: 4px solid red; }
