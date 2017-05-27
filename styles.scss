@@ -1,0 +1,70 @@
+$htmlColor: rgb(98%, 96.2%, 91%);
+$bannerHeading: 70px;
+$bannerSub: 20px;
+$bannerFontColor: rgb(6.4%, 57.4%, 87.4%);
+
+@mixin banner {
+    color: $bannerFontColor;
+    .banner-content {
+        border: 4px solid red;
+        position: absolute;
+        top: 20rem;
+        left: 40rem;
+        a {
+            color: red;
+            display: relative;
+            left: 5rem;
+            top: 2rem;
+        }
+    }
+
+    span {
+        display: block;
+        font-size: $bannerHeading;
+    }
+
+    .banner-sub {
+        font-size: $bannerSub;
+    }
+}
+
+html {
+    background-color: $htmlColor;
+}
+
+header {
+    background-image: url(http://static.boredpanda.com/blog/wp-content/uploads/2014/06/happy-dog-maru-shiba-inu-33.jpg);
+    background-size: cover;
+    height: 100vh;
+    .nav-banner {
+        @include banner;
+  }
+}
+
+.nav {
+    background-color: $htmlColor;
+    text-align: center;
+    border: 4px solid red;
+    padding: 50px;
+    span {
+        display: inline;
+        border: 4px solid red;
+        color: $bannerFontColor;
+        font-size: $bannerHeading;
+    }
+}
+
+.section-article {
+    margin: 0 auto 20rem;
+    max-width: 1000px;
+}
+
+.card-align {
+    border: 4px solid red;
+    max-width: 60rem;
+    margin: 2rem auto 0;
+}
+
+.page-article {
+    border: 4px solid red;
+}
